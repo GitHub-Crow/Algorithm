@@ -1,6 +1,5 @@
 // https://ac.nowcoder.com/acm/contest/8282/C
 #include <iostream>
-
 using namespace std;
 typedef long long LL;
 #define LOCAL
