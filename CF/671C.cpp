@@ -28,7 +28,7 @@ int main(int argc, char * argv[])
 		}
 		int ans = 0;
 		if (f) ans = 0;
-		else if (s == x * n || (g && s % n == 0)) ans = 1;
+		else if (s == x * n || g) ans = 1;
 		else ans = 2;
 		cout << ans << endl;
 	}
