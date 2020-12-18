@@ -1,4 +1,6 @@
-// 取小于等于n的三个数使得三个数的最小公倍数最大
+/* 
+Q: 取小于等于n的三个数使得三个数的最小公倍数最大
+*/
 #include <iostream>
 #include <algorithm>
 
