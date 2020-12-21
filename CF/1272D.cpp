@@ -16,6 +16,7 @@ int main(int argc, char * argv[])
 	freopen("data.in", "r", stdin);
 	#endif
 
+
 	int n;
 	cin >> n;
 	for (int i = 0; i < n; ++i) cin >> a[i];
@@ -40,8 +41,6 @@ int main(int argc, char * argv[])
 	for (int k = 1; k < n - 1; ++k) {
 		if (a[k + 1] > a[k - 1]) ans = max(ans, f[k - 1] + b[k + 1]);
 	}
-	cout << ans << endl;
-
 
     return 0;
 }
