@@ -24,7 +24,6 @@ int main(int argc, char * argv[])
 	memset(v, 0, sizeof(v));
 	for (int k = 2; k <= m; ++k) {
 		if (v[k]) continue ;
-		int u = k;
 		if (n % k == 0) {
 			LL o = n;
 			while (o / k) {
@@ -35,6 +34,7 @@ int main(int argc, char * argv[])
 			else ans = 1;
 			break ;
 		}
+		int u = k;
 		while (u <= m) {
 			v[u] = true;
 			u += k;
