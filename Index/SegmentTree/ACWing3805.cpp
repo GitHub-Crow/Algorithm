@@ -1,3 +1,7 @@
+/*
+Q：给定动态数组，需要进行区间增删操作，求区间范围最小值。
+A：线段树，每一次查询和增删前都需要将标记往下传，增删操作后需要更新线段树的值。
+*/
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long LL;
