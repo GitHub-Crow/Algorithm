@@ -1,5 +1,5 @@
 /*
-Q: 对于数组A和数组B, 求对于对于任意bj的GCD(a1+bj, a2+bj, a3+bj, ..., an+bj).
+Q: 对于数组A和数组B, 求对于任意bj的GCD(a1+bj, a2+bj, a3+bj, ..., an+bj).
 A: GCD(x, y, z, ..) = GCD(x, y-x, z-x, ...).
 
 */

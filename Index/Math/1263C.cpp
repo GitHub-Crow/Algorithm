@@ -1,8 +1,8 @@
 /*
 Q: 给定数字n，对于所有正整数x，都有y=ceil(n/x)，打印出所有可能的y。
-A: y <= n/x < y + 1，则x的区间长度为n/(y*y + y)。first, 当区间长度大于1时必定存在正整数，
-此时的y一定是解，当y在[0, ceil(sqrt(n))]内时，满足上述要求；second，对于 x>sqrt(n)，那么
-相应的y一定是小于sqrt(n)，都在第一种情况中。此时只需要讨论 x<sqrt(n)。
+A: y <= n/x < y + 1，则x的区间长度为n/(y*y + y)。
+first, 当区间长度大于1时必定存在正整数，此时的y一定是解，当y在[0, ceil(sqrt(n))]内时，满足上述要求；
+second，对于 x>sqrt(n)，那么相应的y一定是小于sqrt(n)，都在第一种情况中。此时只需要讨论 x<sqrt(n)。
 
 */
 #include <bits/stdc++.h>
